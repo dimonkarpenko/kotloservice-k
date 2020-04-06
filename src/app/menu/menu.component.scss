@@ -29,3 +29,23 @@
   background-color: #3f51b5;
   padding: 0 1rem;
 }
+
+@media (min-width:530px) and (max-width: 767px) {
+  .callBtn {
+    font-size: 15px;
+  }
+
+  span {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 530px) {
+  .callBtn {
+    font-size: 11px;
+  }
+
+  span {
+    font-size: 11px;
+  }
+}

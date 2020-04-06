@@ -44,3 +44,77 @@
     border: 2px solid #fff;
   }
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.baner {
+  height: 35vh;
+}
+
+  .banerInfo {
+    width: 70%;
+  }
+
+  .banerText {
+
+    span {
+      padding: 0;
+      font-size: 21px;
+    }
+  }
+
+  .banerNumber {
+    a  {
+      font-size: 17px;
+    }
+  }
+}
+
+@media (min-width: 250px) and (max-width: 530px) {
+
+  .baner {
+    height: 35vh;
+  }
+
+  .banerInfo {
+    width: 90%;
+    padding: .4rem;
+  }
+
+  .banerText {
+    span {
+      padding: 0;
+      font-size: 13px;
+    }
+  }
+
+  .banerNumber {
+    a {
+      font-size: 12px;
+    }
+  }
+}
+
+@media (min-width: 530px) and (max-width: 767px) {
+  .baner {
+    height: 70vh;
+  }
+
+  .banerInfo {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .banerText {
+    span {
+      padding: 0;
+      font-size: 20px;
+    }
+  }
+
+  .banerNumber {
+    a {
+      font-size: 20px;
+    }
+  }
+}

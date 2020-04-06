@@ -1,4 +1,4 @@
-#services {
+.services {
   background-color: rgba(0, 0, 0, .04);
   padding: 2rem 0;
   .servicesTitle {
@@ -76,6 +76,25 @@ figcaption {
           background-color: #fff;
           cursor: pointer;
         }
+    }
+  }
+}
+
+@media (min-width: 250px) and (max-width: 767px) {
+  .servicesItems {
+    flex-direction: column;
+
+    figure {
+      max-width: 100%;
+    }
+  }
+
+  .services {
+    .servicesTitle {
+      span {
+        font-size: 17px;
+        padding: 0 .4rem;
+      }
     }
   }
 }
