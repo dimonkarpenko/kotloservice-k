@@ -1,0 +1,46 @@
+.baner {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-image: url('http://irpin.kotloservice.in.ua/wp-content/uploads/2018/03/Kotly-Baner-1.png');
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.banerInfo {
+  width: 48vw;
+  position: relative;
+  padding: 3rem;
+  background-color: rgba(63, 81, 181, .9);
+  border-radius: 25px;
+}
+
+.banerText {
+  margin: 2rem;
+
+  span {
+    color: #fff;
+    font-size: 27px;
+    padding: 2rem;
+    font-weight: 800;
+  }
+}
+
+.banerNumber {
+  display: flex;
+  justify-content: space-around;
+
+  a {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 20px;
+    text-decoration: none;
+    border: 2px solid #fff;
+  }
+}

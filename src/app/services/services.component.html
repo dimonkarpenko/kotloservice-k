@@ -1,0 +1,23 @@
+<div id="services">
+  <div class="servicesTitle">
+    <div class="hrLine">
+    </div>
+    <span>Наши услугиb</span>
+    <div class="hrLine">
+    </div>
+  </div>
+  <div class="servicesItems">
+    <figure *ngFor="let services of services">
+        <span>{{services.price}}</span>
+        <img src="{{services.image}}">
+        <p>{{services.description}}</p>
+      <figcaption>
+          <a href="tel:+380938155315">
+            <button type="button">
+              Вызвать мастера
+            </button>
+          </a>
+      </figcaption>
+</figure>
+  </div>
+</div>
