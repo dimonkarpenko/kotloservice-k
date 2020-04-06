@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { NgxPageScrollModule } from 'ngx-page-scroll';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -15,6 +17,8 @@ import { BanerComponent } from './baner/baner.component';
 import { ServicesComponent } from './services/services.component';
 import { MarksComponent } from './marks/marks.component';
 import { ContactsComponent } from './contacts/contacts.component';
+
+
 
 @NgModule({
   declarations: [
@@ -34,7 +38,8 @@ import { ContactsComponent } from './contacts/contacts.component';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    NgxPageScrollModule
   ],
   providers: [],
   bootstrap: [AppComponent]

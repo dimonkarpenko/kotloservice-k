@@ -17,7 +17,6 @@ export class MenuComponent {
       shareReplay()
     );
 
-
   constructor(private breakpointObserver: BreakpointObserver) {}
 
 }

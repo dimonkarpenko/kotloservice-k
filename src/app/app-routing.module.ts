@@ -8,13 +8,12 @@ import { ContactsComponent } from './contacts/contacts.component';
 const routes: Routes = [
   {path: 'services', component: ServicesComponent},
   {path: 'marks', component: MarksComponent},
-  {path: 'services', component: ContactsComponent}
+  {path: 'contacts', component: ContactsComponent}
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, {
-    anchorScrolling: 'enabled',
-    scrollPositionRestoration: 'enabled'
+    anchorScrolling: 'enabled'
   })],
   exports: [RouterModule]
 })
